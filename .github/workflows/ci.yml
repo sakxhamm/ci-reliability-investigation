@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
 
 # SECURITY CONCERN: Overly permissive permissions (should be restricted to contents: read)
 permissions: write-all
